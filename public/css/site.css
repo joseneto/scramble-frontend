@@ -1,0 +1,100 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  background-color: #333;
+  line-height: 1.5em;
+  
+}
+
+h1, h2, h3, h4, p {
+  color: rgb(223, 215, 215);
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.button {
+  background-color: #e7e7e7; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {background-color: #ffffff;}
+
+.text-box {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  font-size:18px;
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.center-div{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.vertical-align {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
