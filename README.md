@@ -40,24 +40,6 @@ The project was divided as follows:
 * [src/scramble_backend/components/scramble.cljs] - This file represent the scramble component UI.
 
 
-
-
-
-
-
-
-
-
-
-### Development mode
-```
-npm install
-npx shadow-cljs watch app
-```
-start a ClojureScript REPL
-```
-npx shadow-cljs browser-repl
-```
 ### Building for production
 
 ```
