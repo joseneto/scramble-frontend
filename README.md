@@ -18,7 +18,7 @@ Scramble Task use some open source libraries:
 
 Scramble Task require npm, you can download it here [npm](https://www.npmjs.com/get-npm). You will need it to run the project, the installation is super simple.
 
-After install npm, you can go to your project root path and run the command below, Leining will install all dependecies.
+After install npm, you can go to your project root path and run the command below, npm will install all dependecies.
 
 ```sh
 $ npm install
